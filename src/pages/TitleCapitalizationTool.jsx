@@ -2,6 +2,8 @@ import { BiCopy } from "react-icons/bi";
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import { useState } from "react";
+import { error_toaster, info_toaster } from "../utilities/Toaster";
+
 
 export default function TitleCapitalizationTool() {
   const copyToClipboard = (repo) => {

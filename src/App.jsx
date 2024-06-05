@@ -6,6 +6,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import WordCounterTool from "./pages/WordCounterTool";
 import TitleCapitalizationTool from "./pages/TitleCapitalizationTool";
 import TextToSpeechTool from "./pages/TextToSpeechTool";
+import RelatedKeywordsTool from "./pages/RelatedKeywordsTool";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               path="/title-capitalization-tool"
               element={<TitleCapitalizationTool />}
             />
+            <Route path="/related-keyword-tool" element={<RelatedKeywordsTool />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </BrowserRouter>

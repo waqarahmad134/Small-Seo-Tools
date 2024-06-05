@@ -54,7 +54,7 @@ export default function Home() {
                 Title Capitalization Tool
               </p>
             </Link>
-            <div className="space-y-3">
+            <Link to={"/related-keyword-tool"} className="space-y-3">
               <div className="bg-white text-black rounded-2xl p-8 text-center hover:scale-110 transition-all ease-in duration-75 ">
                 <img
                   className="m-auto"
@@ -62,8 +62,8 @@ export default function Home() {
                   alt="logo"
                 />
               </div>
-              <p className="text-lg font-semibold text-wrap">Text to Speak</p>
-            </div>
+              <p className="text-lg font-semibold text-wrap">Related Keyword Tool</p>
+            </Link>
           </div>
         </div>
       </div>
