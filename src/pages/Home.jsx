@@ -64,6 +64,16 @@ export default function Home() {
               </div>
               <p className="text-lg font-semibold text-wrap">Related Keyword Tool</p>
             </Link>
+            <Link to={"/md5-generator"} className="space-y-3">
+              <div className="bg-white text-black rounded-2xl p-8 text-center hover:scale-110 transition-all ease-in duration-75 ">
+                <img
+                  className="m-auto"
+                  src="https://iskills.com/wp-content/uploads/2024/04/tools-thumnail.svg"
+                  alt="logo"
+                />
+              </div>
+              <p className="text-lg font-semibold text-wrap">Md5 Generator</p>
+            </Link>
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@ import WordCounterTool from "./pages/WordCounterTool";
 import TitleCapitalizationTool from "./pages/TitleCapitalizationTool";
 import TextToSpeechTool from "./pages/TextToSpeechTool";
 import RelatedKeywordsTool from "./pages/RelatedKeywordsTool";
+import Md5 from "./pages/Md5";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               element={<TitleCapitalizationTool />}
             />
             <Route path="/related-keyword-tool" element={<RelatedKeywordsTool />} />
+            <Route path="/md5-generator" element={<Md5 />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </BrowserRouter>
