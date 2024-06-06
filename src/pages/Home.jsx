@@ -19,7 +19,7 @@ export default function Home() {
       <div>
         <Header />
         <div className="bg-[#f1eef8] text-center font-poppins py-20">
-          <div className="w-4/5 mx-auto grid grid-cols-5 gap-10">
+          <div className="w-4/5 mx-auto grid md:grid-cols-5 gap-10">
             <Link to={"/text-to-speech-tool"} className="space-y-3">
               <div className="bg-white text-black rounded-2xl p-8 text-center hover:scale-110 transition-all ease-in duration-75 ">
                 <img
